@@ -6,7 +6,10 @@ public class PessoaModel {
     private String nome;
     private String sobreNome;
 
+    // Metodo construtor
     public PessoaModel(String nome, String sobreNome) {
+
+        // Define valores das variaveis abaixo
         this.setId(PessoaGeradorId.getId());
         this.setNome(nome);
         this.setSobreNome(sobreNome);

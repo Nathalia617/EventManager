@@ -9,7 +9,7 @@ public class Main {
         PessoaModel p2 = new PessoaModel("a2aa", "bb");
         PessoaModel p3 = new PessoaModel("aa3a", "bb");
 
-        SalaModel s = new SalaEventoModel("aaaa", 22);
+        SalaModel s = new SalaEventoModel("aaa", 22);
         SalaModel s2 = new SalaEventoModel("aaaa", 22);
         SalaModel s3 = new SalaEventoModel("aaaa", 22);
 

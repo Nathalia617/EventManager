@@ -12,6 +12,7 @@ public class SalaEventoModel extends SalaModel {
     private HashMap<String, ArrayList<PessoaModel>> etapas = new HashMap<String, ArrayList<PessoaModel>>();
     private int lotacao;
 
+    // Metodo construtor
     public SalaEventoModel(String nome, int lotacao) {
         super(nome);
         etapas.put(Etapa.PRIMEIRA, new ArrayList<PessoaModel>());

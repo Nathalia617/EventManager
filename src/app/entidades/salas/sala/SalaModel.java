@@ -6,6 +6,7 @@ public abstract class SalaModel {
     private int id;
     private String nome;
 
+    // Metodo construtor
     public SalaModel(String nome) {
         this.setId(SalaGeradorId.getId());
         this.setNome(nome);
@@ -24,10 +25,7 @@ public abstract class SalaModel {
     }
 
     public void setNome(String nome) {
-        // PASSAR PARA CAMADA CONTROL
-        if (!nome.equals("")) {
-            this.nome = nome;
-        } else throw new NullPointerException("Nome nulo");
+        this.nome = nome;
     }
 
     public abstract PessoaModel getPessoa(String nome);
